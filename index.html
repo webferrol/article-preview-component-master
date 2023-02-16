@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Article preview component</title>
 
 
@@ -14,7 +16,7 @@
 
   <article class="card">
     <header class="card-header">
-      <img class="card-img-top" src="./images/drawers.jpg" alt="Wonderfull!!!!">
+      <img class="card-img-top image" src="./images/drawers.jpg" alt="Wonderfull!!!!">
       <h2 class="card-title">
         Shift the overall look and feel by adding these wonderful
         touches to furniture in your home
@@ -27,9 +29,11 @@
     </p>
     <footer class="card-footer">
       <div class="card-author">
-        <img src="./images/avatar-michelle.jpg" alt="Mi nombre es">
-        <a href="#">Michelle Appleton</a>
-        <time datetime="2020-06-28">28 Jun 2020</time>
+        <img class="image card-avatar" src="./images/avatar-michelle.jpg" alt="Mi nombre es">
+        <div class="card-author-info">
+          <a class="card-link" href="#">Michelle Appleton lorem</a>
+          <time class="card-date" datetime="2020-06-28">28 Jun 2020</time>
+        </div>
       </div>
       <a class="card-share" href="#"><img src="./images/icon-share.svg" alt="Share"></a>
     </footer>

@@ -1,0 +1,30 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  height: 100vh;
+  background-color: var(--color-4);
+  font-size: 13px;
+}
+
+.card {
+  /* width: var(--mobile-width); */
+  max-width: var(--mobile-width);
+  background-color: var(--card-bg-color);
+  color: var(--color-2)
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
+.card-author-info {
+  display: flex;
+  flex-direction: column;
+  gap: .2em;  
+}
+
+
